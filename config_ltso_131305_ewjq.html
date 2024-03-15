@@ -1,0 +1,47 @@
+kiwi
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+58 / 6
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+93,91,46,64,38,21,65,62,0,91,84,77,71,0,72,52,10 + 4,6,73,97,39,81,47,83,88,18,25,82,58,56,80,29,31,31,89,72,2,69,55,21,86,70,72,13,98,20,48,62,27,68,55,33,18,21,50,60,99,79,74,17,88,96,54,74,7,1,70,82,88,58,10,41,36,80,30,49,59,91,30,81,8,13,21,43,28,14,26,55,63,69,55,3,71,20,60,87,8,44,10,60,1,50,80,77,83,84
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+orange
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const getRandomSubset = (array, size) => array.slice(0, size);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+orange
+
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+grape
+
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const variableName = getRandomNumber();
+
+grape - 52
+const isEven = num => num % 2 === 0;
+
+47,77,4,76,57,3,75,12,59,42,79,93,45,99,14,83,61,45,41,71,32,45,41,46 + 20,90,18,83,36,55,57,12,63,92,49,67,40,28,44,9,78,46,10,76,26,8,89,28,6,64,99,87,74,85,24,92,78,60,93,78,87,21,16,35,23,48,71,33,14,15,75,84,90,63,53,24,87,66,66,19,43,65,54,57,47,41,40,41,98,2,77,30,49,32,1,41,12,14,15,85,56,9,37,19,43,88,19,83,77,53,98,78
+const reverseString = str => str.split("").reverse().join("");
+
+function addNumbers(a, b) { return a + b; }
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const getRandomElement = array => array[getRandomIndex(array)];
+
+59 / banana
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+banana + 52,77,29,30,45,6,97,57,16,25,77,19,41,78,19,57,46,12,63,66,51,87,21,44,87,56,74,70,16,73,13,96,66,7,3,99,95,80,67,82,75,19,41,56,37,13,46,41,77,82,31,56,28,58,63,31,62
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+grape + true
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
