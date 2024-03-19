@@ -1,0 +1,53 @@
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+banana / 42
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+70,8,90,42,62,80,83,59,76,43,8,20,12,6,10,51,21,91,60,19,95,42,88,42,75,10,11,0,56,38,41,56,84,76,71,99,82,11,29,16,87,5,46,11,84,60,8,69,67,41,52,81,2,50,15,76,10,44,88,32,81,99 - kiwi
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const isEven = num => num % 2 === 0;
+const variableName = getRandomNumber();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const greet = name => `Hello, ${name}!`;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const findSmallestNumber = numbers => Math.min(...numbers);
+const getRandomSubset = (array, size) => array.slice(0, size);
+apple + true
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const capitalizeString = str => str.toUpperCase();
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+apple
+
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+kiwi
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+apple - 8
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+true + 44,60,76,75,87,27,42,48,74,60,19,30,96,99,20,29,45,93,8,11,22,2,14,51,33,82,35,0,26,59,44,47,67,31,34,87,45,39,52,68,9,50,2,77,54,15,74
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+34,57,96,22,46,97,18,88,47,2,64,31,87,20,84,75,2,80,51,86,6,94,24,43,82,96,55,54,42,39,82,28,92,85,52,85,21,40,58,7,89,71,46,66,96,27,17,70,7,1,19,0,16,41,55,51,50,57,80,54,72,15,55,19,22,34,90,39,94,20,34,69,96,16,87,45,84,30,74,87,20,0,61,17,96,74,49,2,40,36,82,82,32,98,58,7,94,11,11 / 63
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+banana
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const findLargestNumber = numbers => Math.max(...numbers);
