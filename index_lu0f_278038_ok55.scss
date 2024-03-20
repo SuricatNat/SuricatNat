@@ -1,0 +1,99 @@
+57 - false
+let array = getRandomArray(); array.forEach(item => console.log(item));
+false - 20
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+grape
+
+
+const capitalizeString = str => str.toUpperCase();
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+banana
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange
+
+// This is a comment
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+banana
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+false - true
+const formatDate = date => new Date(date).toLocaleDateString();
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const capitalizeString = str => str.toUpperCase();
+const formatDate = date => new Date(date).toLocaleDateString();
+kiwi
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const findSmallestNumber = numbers => Math.min(...numbers);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const getUniqueValues = array => [...new Set(array)];
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+true * true
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const findSmallestNumber = numbers => Math.min(...numbers);
+const randomNumber = getRandomNumber();
+const formatDate = date => new Date(date).toLocaleDateString();
+const reverseString = str => str.split("").reverse().join("");
+let result = performOperation(getRandomNumber(), getRandomNumber());
+16 / 60
+const randomNumber = getRandomNumber();
+orange
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+// This is a comment
+true * kiwi
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const removeDuplicates = array => Array.from(new Set(array));
+orange
+
+
+const multiply = (a, b) => a * b;
+23,46,8,43,68,33,82,73,38,85,52,94,88,49,46,32,40,79,81,14,13,71,59,93,26,70,91,59,24,51,42,63,79,21,29,0,73,38,30,0,3,98,19,52,7,54,33,65,69,41,21,75,67,49,84,66,68,38,64 / false
+
+const variableName = getRandomNumber();
+kiwi + kiwi
+const multiply = (a, b) => a * b;
+
+kiwi
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+27,25,60,59,82,11,73,74,70,86,77,87,70,94,52,15,22,10,99,88,92,91,93,25,85,6,59,54,55,76,68,12,96,72,35,33,73,33,21,12,85,91,91,80,30,59,62,59,59,19,78,94,40,0,82,78,45,13,76,57,39,6,54,93,75,99,55,20,11,84,77,42,37,9,82,52,46,98,17,79,35,74,76,47,35,94,41,73,90,61,95 - 46
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const getUniqueValues = array => [...new Set(array)];
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const getRandomSubset = (array, size) => array.slice(0, size);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+kiwi
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const multiply = (a, b) => a * b;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const squareRoot = num => Math.sqrt(num);
+true * 20,6,22,46,55,3,61,42,41,41,7,20,35,31,62,60,98,85
+const sum = (a, b) => a + b;
+true / 31,76,27,53,56,3,2,63,82,20,52,10,4,39,34,19,57,53,65,1,61,72,20,94,94,96,75,61,70,67,21,49,36,19,47,83,77,79,42,84,94,52,38,94,82,92,39,62,42,76,84,8,38,1,90,14,2,4,1,66,71,37,79,27,12,44,23,94,64,15,96,39,32,43,65,44,23,26,41,41,14,50,44,96,97,46,88,28,33,54,35,70,49,7,6,66,4
+const removeDuplicates = array => Array.from(new Set(array));
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
