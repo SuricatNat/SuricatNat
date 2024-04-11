@@ -1,0 +1,36 @@
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const squareRoot = num => Math.sqrt(num);
+const randomNumber = getRandomNumber();
+90 + kiwi
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+13,50,13,64,51,26,71,97,17,80,73,13,26,22,91,54,72,70,0,81,63,24,55,24,97,82,62,68,13,75,22,84,38,45,84,97,19,86,62,35,83,36,74,72,48,98,48,8,57,55,75,40,28,90 / 82,51,17,57,59,74,28,13,69,6,87,96,64,68,75,48,25,15,17,60
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+52 / 16
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+99,49,69,27,89,43,82,96,55,36,66,21,12,13,21,68,58,77,44,94,22,74,12,93,73,40,13,59,6,69,47,87,18,41,33,58,77,29,62,99,37,99,41,40,28,85,42,76,58,8,52,33,59,23,49,40,14,30,68,76,43,53,94,12,4,39,70,62 * 72,4,44,31,40,17,9,36,32,39,68,60,98,71,7,54,44,88,28,66,17,89,96,33,87,56,80,63,18,69,51,26
+const capitalizeString = str => str.toUpperCase();
+
+banana * 32,69,71,16,64,35,89,85,58,28,49,10,33,3,95,98,13,60,60,57,40,48,7,99,99,60,15,35,95,42
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+// This is a comment
+true - false
+function addNumbers(a, b) { return a + b; }
+apple
+
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+let result = performOperation(getRandomNumber(), getRandomNumber());
+78,70,10,23,5,2,79,55,33,98,44,57,74,8,44,55,20,2,38,19,11,95,46,96,51,86,81,8,99,60,91,5,79,78,99,14,57,99,21,30,86,70,33,56,88,38,59,9,36,5,8,74,68,21,60,33,64,48,39,5,39,33,55,4,45,26 * 62
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const findLargestNumber = numbers => Math.max(...numbers);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+true - banana
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
